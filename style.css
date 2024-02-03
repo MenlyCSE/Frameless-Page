@@ -1,0 +1,560 @@
+/* webpage's background */
+body {
+    background-color: #fdebdc;
+}
+
+/* navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    font-family: sans-serif;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    box-shadow: 0 5px 15px #00000030;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.button-color {
+    text-decoration: none;
+    color: #509fe9;
+}
+
+/* submenus */ 
+nav .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateX(-25%);
+    background-color: #333;
+    padding: 10px;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+
+}
+  
+  nav .submenu li {
+    display: block;
+    margin: 5px 0;
+}
+  
+nav .submenu {
+    display: block;
+}
+
+  nav .menu {
+    position: relative;
+}
+
+.dessert {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: #969696;
+}
+
+.beers-wines {
+    color: #969696;
+}
+
+/* submenus for menu.html */
+nav .submenu2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateX(-25%);
+    background-color: #333;
+    padding: 10px;
+    border-left: 2px solid #509fe9;
+    border-right: 2px solid #509fe9;
+
+}
+  
+  nav .submenu2 li {
+    display: block;
+    margin: 5px 0;
+}
+  
+nav .submenu2 {
+    display: block;
+}
+
+.dessert2 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+.beers-wines2 {
+    color: #ffffff;
+}
+
+/* index: heading, subheading, and description */ 
+.indexheading h1, h2, p {
+  position: absolute;
+  right: 50%;
+  top: 150px;
+  transform: translateX(50%);
+  font-family: sans-serif; 
+}
+
+.indexheading h1 {
+  color: red;
+}
+
+.indexheading h2 {
+  position: relative;
+  text-align: center;
+  top: 200px;
+  font-style: italic;
+  
+}
+
+.indexheading p {
+  position: relative;
+  text-align: center;
+  top: 195px;
+}
+
+/* horizontal line */
+.line1 {
+  position: relative;
+  width: 200px;
+  top: 210px;
+  border-color: black;
+}
+
+/* form */
+.form1 {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #000000;
+  background-color: #dccabe;
+  border-radius: 10px;
+  position: absolute;
+  top: 490px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+}
+
+.textarea {
+  width: 100%; 
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background-color: #ffffff(0, 0%, 99%, 0.286);
+}
+
+.submit {
+  width: 40%; 
+  height: 40px;
+  border-radius: 10px;
+}
+
+.firstname, .lastname, .cellphone, .phonenumber, .email, .creditcard, .csv, .emailgift {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+
+input, select, textarea {
+  font-size: 14px;  
+  color: #262626;      
+}
+
+input.submit {
+  font-size: 16px;   
+  background-color: rgb(239, 118, 118); 
+  color: #fff;     
+  border: none;  
+}
+
+.form1 label {
+  font-family: sans-serif;
+  color: black;
+}
+
+/* purchase form */
+.form2 {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #000000;
+  background-color: #dccabe;
+  border-radius: 10px;
+  position: absolute;
+  top: 190px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+}
+
+.form2 label {
+  font-family: sans-serif;
+  color: black;
+}
+
+/* history */
+.indexheading2 h1, h2, p {
+  position: absolute;
+  right: 50%;
+  top: 150px;
+  transform: translateX(50%);
+  font-family: sans-serif; 
+  color: black;
+}
+
+.heading2 {
+  position: absolute;
+  right: 10%;
+  top: -60px;
+  transform: translateX(50%);
+  font-family: sans-serif; 
+  color: black;
+  opacity: 60%;
+}
+
+.heading2 a {
+  text-decoration: underline;
+  color: rgb(204, 85, 85);
+}
+
+.heading3 {
+  position: absolute;
+  right: -72%;
+  top: -257px;
+  transform: translateX(50%);
+  font-family: sans-serif;
+  text-align: left;
+  color: black;
+  opacity: 60%;
+}
+
+.heading3 a {
+  text-decoration: underline;
+  color: rgb(204, 85, 85);
+}
+
+.ruckers {
+  color: rgb(204, 85, 85);
+}
+
+/* history */ 
+.storyparagraph {
+  line-height: 1.5; 
+  margin: 0; 
+  width: 550px;
+  text-align: center;
+}
+
+/* inline image (1) */
+.storyparagraph img {
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+/* table and inline image (2) */
+table {
+  border-collapse: separate; 
+  width: 70%;
+  margin: 0;
+  border-radius: 10px;
+  background-color: #ccb9ae;
+  position: absolute;
+  top: 380px;
+  left: 50%; 
+  transform: translateX(-50%);
+  height: 260px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td {
+  padding: 10px;
+}
+
+th {
+  background-color: #ae9f96;
+  font-weight: bold;
+  color: rgb(46, 46, 46);
+  padding: 8px;
+  text-align: center;
+  height: 30px;
+}
+
+th a {
+  text-decoration: none;
+  color: black;
+}
+
+th:nth-child(1) {
+  width: 50%;
+}
+
+th:nth-child(2) {
+  width: 50%;
+}
+
+/* inline image (2) */
+.tableimg {
+  border-radius: 20px;
+  border: 2px solid black;
+  width: 400px;
+}
+
+/* boxes and inline images */
+.box1 {
+  position: absolute;
+  z-index: -1;
+  background-color: #6e645e;
+  width: 800px;
+  height: 320px;
+  border-radius: 10px;
+  opacity: 30%;
+  top: 280px;
+  left: 22%;
+  box-shadow: 0px 0px 10px 5px #80808080;
+  border: 2px solid black;
+}
+
+h1.inline-image {
+  position: absolute;
+  top: 270px;
+  right: 50%;
+  transform: translate(50%);
+  color: rgb(239, 118, 118);
+}
+
+.img1 {
+  width: 300px;
+  height: 167px;
+  border-radius: 10px;
+  position: absolute;
+  top: 60px;
+  left: -10%;
+  transform: translateX(-50%);
+  border: 2px solid black;
+}
+
+.img2 {
+  width: 300px;
+  height: 167px;
+  border-radius: 10px;
+  position: absolute;
+  top: 260px;
+  left: -10%;
+  transform: translateX(-50%);
+  border: 2px solid black;
+}
+
+.img3 {
+  width: 300px;
+  height: 167px;
+  border-radius: 10px;
+  position: absolute;
+  top: 60px;
+  left: 110%;
+  transform: translateX(-50%);
+  border: 2px solid black;
+}
+
+.img4 {
+  width: 300px;
+  height: 167px;
+  border-radius: 10px;
+  position: absolute;
+  top: 260px;
+  left: 110%;
+  transform: translateX(-50%);
+  border: 2px solid black;
+}
+
+/* duplicate box */ 
+.box2 {
+  position: absolute;
+  z-index: -1;
+  background-color: #c87961;
+  width: 800px;
+  height: 490px;
+  border-radius: 10px;
+  opacity: 30%;
+  top: 670px;
+  left: 22%;
+  box-shadow: 0px 0px 10px 5px #80808080;
+  border: 2px solid black;
+}
+
+h1.inline-image2 {
+  position: absolute;
+  top: 660px;
+  right: 50%;
+  transform: translate(50%);
+  color: rgb(239, 118, 118);
+}
+
+.img5 {
+  width: 300px;
+  height: 167px;
+  border-radius: 10px;
+  position: absolute;
+  top: 60px;
+  left: -10%;
+  transform: translateX(-50%);
+  border: 2px solid black;
+}
+
+.img6 {
+  width: 300px;
+  height: 167px;
+  border-radius: 10px;
+  position: absolute;
+  top: 260px;
+  left: -10%;
+  transform: translateX(-50%);
+  border: 2px solid black;
+}
+
+.img7 {
+  width: 300px;
+  height: 167px;
+  border-radius: 10px;
+  position: absolute;
+  top: 60px;
+  left: 110%;
+  transform: translateX(-50%);
+  border: 2px solid black;
+}
+
+.img8 {
+  width: 300px;
+  height: 167px;
+  border-radius: 10px;
+  position: absolute;
+  top: 260px;
+  left: 110%;
+  transform: translateX(-50%);
+  border: 2px solid black;
+}
+
+/* ordered list */
+.dessertcontainer {
+  position: absolute;
+  right: 50%;
+  top: 200px;
+  transform: translateX(50%);
+  color: rgb(192, 93, 93);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* unordered list */
+.dessertcontainer2 {
+  position: absolute;
+  right: 50%;
+  top: 200px;
+  transform: translateX(50%);
+  color: rgb(192, 93, 93);
+  text-align: center;
+  font-family: sans-serif;
+} 
+
+.dessertcontainer2 ul {
+  list-style-type: disc; /* You can use 'disc', 'circle', or 'square' */
+}
+
+/* form1 duplicate */
+.form1duplicate {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #000000;
+  background-color: #dccabe;
+  border-radius: 10px;
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+}
+
+/* image */
+.indexheading3 h1, h2, p {
+  position: absolute;
+  right: 50%;
+  top: 150px;
+  transform: translateX(50%);
+  font-family: sans-serif; 
+  color: black;
+  z-index: -1;
+}
+
+/* extra */
+.break {
+  position: absolute;
+  top: 950px;
+  right: 50%;
+  transform: translateX(50%);
+  opacity: 5%;
+}
+
+.break2 {
+  position: absolute;
+  top: 850px;
+  right: 50%;
+  transform: translateX(50%);
+  opacity: 5%;
+}
+
+.break3 {
+  position: absolute;
+  top: 860px;
+  right: 50%;
+  transform: translateX(50%);
+  opacity: 5%;
+}
+
+.break4 {
+  position: absolute;
+  top: 1020px;
+  right: 50%;
+  transform: translateX(50%);
+  opacity: 5%;
+}
+
+.break5 {
+  position: absolute;
+  top: 1180px;
+  right: 50%;
+  transform: translateX(50%);
+  opacity: 5%;
+}

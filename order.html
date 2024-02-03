@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+
+    <!-- External CSS Links -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- External Javascript Link-->
+    <script src="z | script.js"></script>
+</head>
+<body>
+
+<!-- navigation bar: index.html, about.html, order.html, menu.html, specials.html, and gift_cards.html -->
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+
+        <!-- menu with subpages -->
+        <li class="menu">
+            <a href="menu.html">Menu</a>
+
+            <!-- submenus: ?????/wine list and dessert list -->
+            <ul class="submenu2">
+                <li><a href="desserts.html" class="dessert2">???????????</a></li>
+                <li><a href="drinks.html" class="?????s-wines2">???????????</a></li>
+            </ul>
+        </li>
+
+        <!-- link to list other items -->
+        <li><a href="specials.html">Specials</a></li>
+        <li><a href="gift_cards.html">Gift Cards</a></li>
+        <li><a href="order.html" class="button-color">Order</a></li>
+        <li><a href="about.html">About Us</a></li>
+    </ul>
+
+    <!-- purchase form -->
+    <form action="submit.php" method="post" class="form2">
+        <label><b>Make a purchase!</b></label><br><br><br><br>
+        <label>First name:</label>
+        <input class="firstname" required><br><br>
+    
+        <label>Last name:</label>
+        <input class="lastname" required><br><br>
+
+        <label>Email address:</label>
+        <input class="email" required><br><br>
+    
+        <label>Phone number:</label>
+        <input class="phonenumber" required><br><br><br><br>
+    
+        <label>Credit card number:</label>
+        <input class="creditcard" required><br><br>
+    
+        <label>Credit card expiration date:</label>
+        <select class="options" id="expMonth" required>
+            <option label="Month"></option>
+            <option value="01">January</option>
+            <option value="02">February</option>
+            <option value="03">March</option>
+            <option value="04">April</option>
+            <option value="05">May</option>
+            <option value="06">June</option>
+            <option value="07">July</option>
+            <option value="08">August</option>
+            <option value="09">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>
+
+        <select class="options" id="expYear" required>
+            <option label="Year"></option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+            <option value="2029">2029</option>
+            <option value="2030">2030</option>
+            <option value="2031">2031</option>
+            <option value="2032">2032</option>
+        </select><br><br>
+    
+        <label>CSV Number <i>*on the back of the card:*</i></label>
+        <input class="csv" required><br><br><br>
+    
+        <label>available:</label>
+        <select class="options" id="timeSelect" required>
+            <option label="Pickup"></option>
+            <option value="08:00 AM">8:00 AM</option>
+            <option value="08:30 AM">8:30 AM</option>
+            <option value="09:00 AM">9:00 AM</option>
+            <option value="09:30 AM">9:30 AM</option>
+            <option value="10:00 AM">10:00 AM</option>
+            <option value="10:30 AM">10:30 AM</option>
+            <option value="11:00 AM">11:00 AM</option>
+            <option value="11:30 AM">11:30 AM</option>
+            <option value="12:00 PM">12:00 PM</option>
+            <option value="12:30 PM">12:30 PM</option>
+            <option value="01:00 PM">1:00 PM</option>
+            <option value="01:30 PM">1:30 PM</option>
+            <option value="02:00 PM">2:00 PM</option>
+            <option value="02:30 PM">2:30 PM</option>
+            <option value="03:00 PM">3:00 PM</option>
+            <option value="03:30 PM">3:30 PM</option>
+            <option value="04:00 PM">4:00 PM</option>
+            <option value="04:30 PM">4:30 PM</option>
+            <option value="05:00 PM">5:00 PM</option>
+        </select><br><br>
+    
+        <label><b>Purchasing:</b></label><br>
+        <input type="checkbox" name="purchasing" id="desserts">
+        <label for="desserts">???????????</label><br>
+    
+        <input type="checkbox" name="purchasing" id="wine">
+        <label for="wine">???????????</label><br>
+
+        <input type="checkbox" name="purchasing" id="?????">
+        <label for="?????">?????</label><br><br>
+    
+        <label><b>recieve notifications:</b></yes><br>
+        <input type="radio" name="payment" id="yes">
+        <label for="yes">yes</label><br>
+    
+        <input type="radio" name="payment" id="no">
+        <label for="no">no</label><br><br><br>
+    
+        <label><b>Detailed order:</b></label><br>
+        <textarea class="textarea" required></textarea><br><br>
+    
+        <input type="submit" value="purchase" class="submit">
+    </form>
+    
+    <!-- contact us, and phone number -->
+    <div class="heading3">
+        <p>
+            <b>Email:</b><br><a href="mailto:staff@ipsum.com">Lorem@ipsum.com</a>
+            <br>
+            <br>
+            <b>Phone:</b><br>555-555-5555
+        </p>
+    </div>
+
+    <p class="break2">
+         
+    </p>
+</nav>
+</body>
+</html>
