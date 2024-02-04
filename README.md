@@ -1,4 +1,4 @@
 # Wepage
-Created without frameworks or bootstraps...
+Created without frameworks or bootstraps...A
 
-![Webpage](https://github.com/MenlyCSE/FramelessWebpage/assets/154091778/4b9fb805-516c-4a60-9d22-91521151def9)
+![Page](https://github.com/MenlyCSE/FramelessPage/assets/154091778/8585bbc0-6492-4527-8b49-d53db60956ef)
